@@ -1,0 +1,20 @@
+{
+  "name": "express-app-template-prod",
+  "version": "1.0.0",
+  "description": "Udaan Test, build an expense sharing application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Rishabh Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "firestore-admin": "^1.3.0",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
+  }
+}
